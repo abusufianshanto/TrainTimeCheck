@@ -1,9 +1,10 @@
+import java.time.LocalTime;
 import java.util.ArrayList;
 
-public class Train extends DeutscheBahn {
+public class Train {
     private String reTrain;
     private String trainDestination;
-    private String departureTime;
+    private LocalTime departureTime;
 
     public Train(String reTrain, String trainDestination) {
         this.reTrain = reTrain;
@@ -26,11 +27,11 @@ public class Train extends DeutscheBahn {
         return reTrain;
     }
 
-    public void setDepartureTime(int departureHour, int departureMin) {
-        departureTime = ""+departureHour+": "+departureMin;
+    public void setDepartureTime(int hour, int minute) {
+        this.departureTime = LocalTime.of(hour, minute);
     }
 
-    public String getDepartureTime() {
+    public LocalTime getDepartureTime() {
         return departureTime;
     }
 }
