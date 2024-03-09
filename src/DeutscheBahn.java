@@ -16,12 +16,4 @@ public class DeutscheBahn {
     public void removeTrain(Train train) {
         db.remove(train);
     }
-
-    public void setDepartureTime( int departureHour, int departureMin) {
-        departureTime = ""+departureHour+": "+departureMin;
-    }
-
-    public String getDepartureTime() {
-        return departureTime;
-    }
 }

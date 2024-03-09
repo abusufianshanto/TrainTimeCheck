@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 
-public class Train {
+public class Train extends DeutscheBahn {
     private String reTrain;
     private String trainDestination;
+    private String departureTime;
 
     public Train(String reTrain, String trainDestination) {
         this.reTrain = reTrain;
@@ -23,5 +24,13 @@ public class Train {
 
     public String getReTrain() {
         return reTrain;
+    }
+
+    public void setDepartureTime(int departureHour, int departureMin) {
+        departureTime = ""+departureHour+": "+departureMin;
+    }
+
+    public String getDepartureTime() {
+        return departureTime;
     }
 }
