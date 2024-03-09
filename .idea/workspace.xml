@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a231232-6052-4ea3-a847-4e59115b3454" name="Changes" comment="Second Commit">
+    <list default="true" id="9a231232-6052-4ea3-a847-4e59115b3454" name="Changes" comment="LocalDate library added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,12 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710023319923</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LocalDate library added">
+      <option name="closed" value="true" />
+      <created>1710024440357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710024440357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit&#10;Printing Departure Time and destination" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="LocalDate library added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LocalDate library added" />
   </component>
 </project>
