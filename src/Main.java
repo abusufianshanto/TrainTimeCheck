@@ -1,5 +1,10 @@
+import java.time.LocalDate;
+import java.time.Month;
+
 public class Main {
     public static void main(String[] args) {
+        LocalDate localDate = LocalDate.now();
+        System.out.println("Today is: "+localDate);
         DeutscheBahn db = new DeutscheBahn();
         Train re3 = new Train("RE3", "Landshut");
         Train re55 = new Train("RE55", "Tegernsee");
